@@ -13,41 +13,6 @@ This project is a multi-purpose offensive security tool for file exfiltration, r
 
 Note: This project has NOT been tested on Windows. The Windows-specific scripts are included but require further validation.
 
-
-The project is organized into various modules and utilities for better code management. Below is an overview of the structure:
-offensive_security_tool/
-│
-├── .venv/                     # Virtual environment folder for Python dependencies
-│
-├── modules/
-│   ├── exploits/
-│   │   ├── mac_file_exfiltration.py        # Mac file exfiltration script
-│   │   ├── mac_privilege_escalation.py     # Mac privilege escalation exploit
-│   │   ├── mac_python_reverse_shell.py     # Mac reverse shell (Python)
-│   │   ├── windows_file_exfiltration.py    # Windows file exfiltration (untested)
-│   │   ├── windows_privilege_escalation.py # Windows privilege escalation exploit (untested)
-│   │   ├── windows_reverse_shell.py        # Windows reverse shell (untested)
-│   │   └── reverse_shell.py                # Generic reverse shell script
-│   └── utils/
-│       ├── encryption.py                   # Utility for encryption (currently not used)
-│       ├── logging_setup.py                # Logging configuration utility
-│       └── __init__.py
-│
-├── uploads/                   # Store exfiltrated files here
-│   ├── exfiltrated_file          # Example file after exfiltration
-│
-├── logs/                      # Centralized logs folder
-│   ├── server.log             # Logs for the Flask server
-│   ├── exfiltration.log       # Logs for file exfiltration actions
-│
-├── README.md                  # Documentation and project details (this file)
-│
-├── server.py                  # Flask server for receiving exfiltrated files
-├── main.py                    # Main entry point for the user interface (menu-based)
-├── requirements.txt           # Python dependencies for the project
-└── .env                       # Environment variable file (optional)
-
-
 # Usage Instructions
 
 **1. Setting Up the Project**
