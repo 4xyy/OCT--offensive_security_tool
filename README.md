@@ -1,107 +1,131 @@
-Offensive Security Tool
-This project is a multi-purpose offensive security tool designed for various tasks such as file exfiltration, reverse shells, and privilege escalation on both macOS and Windows platforms.
+# Offensive Security Tool
 
-Features
-File Exfiltration: Transfer files from the target machine to a remote server (supports macOS and Windows).
-Reverse Shells: Execute reverse shells to connect and control the target machine remotely.
-Privilege Escalation: Exploit vulnerabilities to gain higher-level permissions on the target machine.
+This project is a multi-purpose offensive security tool for file exfiltration, reverse shells, and privilege escalation on both macOS and Windows platforms.
 
-Directory Structure
+## Features
+- **File Exfiltration**: Transfer files from the target machine to a server (supports macOS and Windows).
+- **Reverse Shells**: Execute reverse shells to connect to a target machine.
+- **Privilege Escalation**: Exploit vulnerabilities to gain higher-level permissions on the target machine.
 
+## Preview
+
+![Offensive Security Toolkit Preview](images/preview_image.png)
+
+Note: This project has NOT been tested on Windows. The Windows-specific scripts are included but require further validation.
+
+
+The project is organized into various modules and utilities for better code management. Below is an overview of the structure:
 offensive_security_tool/
 │
-├── .venv/                     # Virtual environment folder 
+├── .venv/                     # Virtual environment folder for Python dependencies
 │
 ├── modules/
 │   ├── exploits/
-│   │   ├── mac_file_exfiltration.py        # macOS file exfiltration script
-│   │   ├── mac_privilege_escalation.py     # macOS privilege escalation exploit
-│   │   ├── mac_python_reverse_shell.py     # macOS reverse shell (Python)
-│   │   ├── mac_reverse_shell.py            # macOS reverse shell script
-│   │   ├── windows_file_exfiltration.py    # Windows file exfiltration script
-│   │   ├── windows_privilege_escalation.py # Windows privilege escalation exploit
-│   │   ├── windows_reverse_shell.py        # Windows reverse shell script
-│   │   └── reverse_shell.py                # Generic reverse shell for various OS
-│   │
+│   │   ├── mac_file_exfiltration.py        # Mac file exfiltration script
+│   │   ├── mac_privilege_escalation.py     # Mac privilege escalation exploit
+│   │   ├── mac_python_reverse_shell.py     # Mac reverse shell (Python)
+│   │   ├── windows_file_exfiltration.py    # Windows file exfiltration (untested)
+│   │   ├── windows_privilege_escalation.py # Windows privilege escalation exploit (untested)
+│   │   ├── windows_reverse_shell.py        # Windows reverse shell (untested)
+│   │   └── reverse_shell.py                # Generic reverse shell script
 │   └── utils/
-│       ├── logging_setup.py                # Centralized logging configuration
+│       ├── encryption.py                   # Utility for encryption (currently not used)
+│       ├── logging_setup.py                # Logging configuration utility
+│       └── __init__.py
 │
 ├── uploads/                   # Store exfiltrated files here
-│   ├── example.encrypted        # Example of an encrypted file
+│   ├── exfiltrated_file          # Example file after exfiltration
 │
 ├── logs/                      # Centralized logs folder
-│   ├── server.log             # Server-side logs
-│   ├── exfiltration.log       # Exfiltration logs
+│   ├── server.log             # Logs for the Flask server
+│   ├── exfiltration.log       # Logs for file exfiltration actions
 │
-├── README.md                  # Project documentation (this file)
+├── README.md                  # Documentation and project details (this file)
 │
-├── server.py                  # Flask server script to receive exfiltrated files
-├── main.py                    # Main entry point for the tool (menu-driven interface)
-└── requirements.txt           # Python dependencies for the project
+├── server.py                  # Flask server for receiving exfiltrated files
+├── main.py                    # Main entry point for the user interface (menu-based)
+├── requirements.txt           # Python dependencies for the project
+└── .env                       # Environment variable file (optional)
 
-*Installation
 
-Clone the repository:
-git clone https://github.com/your-repo/offensive_security_tool.git
+# Usage Instructions
+
+**1. Setting Up the Project**
+Before running the project, ensure that you have Python 3 installed. You can use the following steps to set up the virtual environment and install the required dependencies.
+# Clone the repository and navigate to the project directory
+git clone <repository-url>
 cd offensive_security_tool
 
-Set up the virtual environment:
+# Set up a virtual environment
 python3 -m venv .venv
-source .venv/bin/activate
 
-Install the required Python packages:
+# Activate the virtual environment
+source .venv/bin/activate  # On macOS/Linux
+# .venv\Scripts\activate  # On Windows
+
+# Install dependencies
 pip install -r requirements.txt
 
+**2. Configuration: Setting Up Environment Variables**
+You can set environment variables for customizing the server IP and port. By default, the project uses 127.0.0.1 as the server IP and 5001 as the port.
+Example of setting environment variables (macOS/Linux):
+export SERVER_IP="192.168.1.10"    # Set your actual server IP
+export SERVER_PORT="5001"          # Set server port
+export SERVER_URL="http://192.168.1.10:5001/exfiltrate"  # Full server URL for exfiltration
 
-*Usage
-1. Run the Server
-The server needs to be running to receive files during the exfiltration process.
-python server.py
-Logs will be stored in logs/server.log.
+Example of setting environment variables (Windows PowerShell):
+$env:SERVER_IP="192.168.1.10"
+$env:SERVER_PORT="5001"
+$env:SERVER_URL="http://192.168.1.10:5001/exfiltrate"
 
-2. File Exfiltration (macOS)
-Run the macOS file exfiltration script:
-python modules/exploits/mac_file_exfiltration.py
-Provide the path to the file you wish to exfiltrate and the server URL (e.g., http://127.0.0.1:5001/exfiltrate).
+Alternatively, you can store these variables in a .env file:
+# .env file example
+SERVER_IP="192.168.1.10"
+SERVER_PORT="5001"
+SERVER_URL="http://192.168.1.10:5001/exfiltrate"
 
-Logs for the exfiltration will be stored in logs/exfiltration.log.
+**3. Running the Server**
+Start the Flask server to receive exfiltrated files.
+python3 server.py
+By default, the server will run on http://127.0.0.1:5001, unless you've changed the environment variables.
 
-3. Reverse Shell (macOS/Windows)
-Run the reverse shell for macOS or Windows:
-macOS:
-python modules/exploits/mac_reverse_shell.py
+**4. Running the Offensive Security Toolkit**
+You can start the toolkit by launching the main.py file. This will give you a command-line menu where you can choose which exploit to run.
+python3 main.py
 
-Windows:
-python modules/exploits/windows_reverse_shell.py
-Once executed, the reverse shell will connect back to your server. Set up a listener on your server to receive connections.
+Menu Options:
+1) MacOS File Exfiltration
+2) MacOS Reverse Shell
+3) Windows Privilege Escalation (untested)
+4) Windows Reverse Shell (untested)
+5) Windows File Exfiltration (untested)
+99) Exit
 
-4. Privilege Escalation (macOS/Windows)
-Run the privilege escalation exploit:
+**5. Running Exploits**
+Example: Running MacOS File Exfiltration
+Choose the MacOS File Exfiltration option from the menu.
+Enter the path to the file you want to exfiltrate when prompted.
+The file will be transferred to the remote server.
 
-macOS:
-python modules/exploits/mac_privilege_escalation.py
+Logging
+Logs for the server and file exfiltration actions are stored in the logs/ directory.
 
-Windows:
-python modules/exploits/windows_privilege_escalation.py
+server.log: Captures server-side logs, such as received chunks and any errors that occur on the server side.
+exfiltration.log: Captures logs related to the file exfiltration process, such as sending chunks and errors.
 
-5. Using the Menu-Driven Interface (Main Script)
-Run the tool's main script to select and execute exploits through an interactive menu:
-python main.py
-You can choose from the available exploits for file exfiltration, reverse shells, and privilege escalation.
+**6. Stopping the Toolkit**
+You can stop the server by pressing Ctrl + C in the terminal where the server is running. The main menu can be exited by selecting option 99.
 
-*Logging
-Server Logs: All server-related logs (including exfiltrated data) are stored in logs/server.log.
-Exfiltration Logs: File exfiltration-related activities are logged in logs/exfiltration.log.
-The logging_setup.py in the utils folder centralizes the logging configuration for all modules, ensuring consistent log formatting and output.
+Customization & IP Configuration
+Dynamic IP Handling: The IP address and port for the server are dynamically set using environment variables (SERVER_IP, SERVER_PORT). If these are not set, the project defaults to 127.0.0.1 and port 5001.
+Environment Variables: Ensure that environment variables are set correctly before running the scripts. You can modify these variables based on the network environment.
 
-**Contributing**
-Fork the repository.
-Create a feature branch.
-Commit your changes.
-Push to your branch.
-Create a pull request.
+Known Issues
+Windows Support: While Windows-specific exploits are included in the toolkit, they have not been tested. These scripts might require modifications and further validation to ensure they function correctly on Windows systems.
+Encryption: Encryption is currently disabled for simplicity, but the encryption.py utility can be integrated for securing the exfiltrated data.
 
-
-*License
-This project is licensed under the MIT License.
-
+**Requirements**
+Python 3.x
+Flask
+Requests
+Any additional dependencies specified in requirements.txt
