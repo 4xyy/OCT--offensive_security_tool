@@ -1,0 +1,108 @@
+2024-09-26 07:38:56,057 - ERROR - File /User/aymena/Desktop/cym/cymatics.js not found.
+2024-09-26 07:39:16,527 - INFO - Attempting to send chunk 0
+2024-09-26 07:39:16,559 - ERROR - Error while sending chunk 0: HTTPConnectionPool(host='0.0.0.0', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101700740>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:16,560 - INFO - Attempting to send chunk 1
+2024-09-26 07:39:16,561 - ERROR - Error while sending chunk 1: HTTPConnectionPool(host='0.0.0.0', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101700e90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:16,561 - INFO - Attempting to send chunk 2
+2024-09-26 07:39:16,562 - ERROR - Error while sending chunk 2: HTTPConnectionPool(host='0.0.0.0', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1017015b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:16,562 - INFO - Attempting to send chunk 3
+2024-09-26 07:39:16,562 - ERROR - Error while sending chunk 3: HTTPConnectionPool(host='0.0.0.0', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101701d30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:16,563 - INFO - Attempting to send chunk 4
+2024-09-26 07:39:16,563 - ERROR - Error while sending chunk 4: HTTPConnectionPool(host='0.0.0.0', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1017024b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:57,257 - INFO - Attempting to send chunk 0
+2024-09-26 07:39:57,274 - ERROR - Error while sending chunk 0: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101218620>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:57,274 - INFO - Attempting to send chunk 1
+2024-09-26 07:39:57,276 - ERROR - Error while sending chunk 1: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101218d70>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:57,276 - INFO - Attempting to send chunk 2
+2024-09-26 07:39:57,277 - ERROR - Error while sending chunk 2: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101219400>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:57,277 - INFO - Attempting to send chunk 3
+2024-09-26 07:39:57,278 - ERROR - Error while sending chunk 3: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101219af0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:39:57,278 - INFO - Attempting to send chunk 4
+2024-09-26 07:39:57,279 - ERROR - Error while sending chunk 4: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10121a1e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:42:29,865 - INFO - Attempting to send chunk 0
+2024-09-26 07:42:29,881 - ERROR - Error while sending chunk 0: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10524c620>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:42:29,881 - INFO - Attempting to send chunk 1
+2024-09-26 07:42:29,883 - ERROR - Error while sending chunk 1: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10524cd70>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:42:29,883 - INFO - Attempting to send chunk 2
+2024-09-26 07:42:29,884 - ERROR - Error while sending chunk 2: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10524d400>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:42:29,884 - INFO - Attempting to send chunk 3
+2024-09-26 07:42:29,885 - ERROR - Error while sending chunk 3: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10524daf0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:42:29,885 - INFO - Attempting to send chunk 4
+2024-09-26 07:42:29,886 - ERROR - Error while sending chunk 4: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10524e1e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:44:57,570 - INFO - Attempting to send chunk 0
+2024-09-26 07:44:57,584 - ERROR - Error while sending chunk 0: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100e54530>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:44:57,584 - INFO - Attempting to send chunk 1
+2024-09-26 07:44:57,585 - ERROR - Error while sending chunk 1: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100e54c50>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:44:57,585 - INFO - Attempting to send chunk 2
+2024-09-26 07:44:57,586 - ERROR - Error while sending chunk 2: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100e552e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:44:57,587 - INFO - Attempting to send chunk 3
+2024-09-26 07:44:57,587 - ERROR - Error while sending chunk 3: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100e559d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:44:57,588 - INFO - Attempting to send chunk 4
+2024-09-26 07:44:57,589 - ERROR - Error while sending chunk 4: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x100e560c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:45:45,330 - INFO - Attempting to send chunk 0
+2024-09-26 07:45:45,347 - ERROR - Error while sending chunk 0: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103738620>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:45:45,347 - INFO - Attempting to send chunk 1
+2024-09-26 07:45:45,348 - ERROR - Error while sending chunk 1: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103738d70>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:45:45,348 - INFO - Attempting to send chunk 2
+2024-09-26 07:45:45,350 - ERROR - Error while sending chunk 2: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103739400>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:45:45,350 - INFO - Attempting to send chunk 3
+2024-09-26 07:45:45,351 - ERROR - Error while sending chunk 3: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103739af0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:45:45,351 - INFO - Attempting to send chunk 4
+2024-09-26 07:45:45,352 - ERROR - Error while sending chunk 4: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10373a1e0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 07:52:00,484 - ERROR - File  not found.
+2024-09-26 08:03:17,516 - INFO - Attempting to send chunk 0
+2024-09-26 08:03:17,599 - ERROR - Error while sending chunk 0: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105ba0680>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 08:03:17,599 - INFO - Attempting to send chunk 1
+2024-09-26 08:03:17,599 - ERROR - Error while sending chunk 1: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105ba0ce0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 08:03:17,600 - INFO - Attempting to send chunk 2
+2024-09-26 08:03:17,600 - ERROR - Error while sending chunk 2: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105ba13d0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 08:03:17,600 - INFO - Attempting to send chunk 3
+2024-09-26 08:03:17,601 - ERROR - Error while sending chunk 3: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105ba1ac0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 08:03:17,601 - INFO - Attempting to send chunk 4
+2024-09-26 08:03:17,601 - ERROR - Error while sending chunk 4: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /exfiltrate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105ba21b0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-09-26 08:06:53,749 - ERROR - File /Users/aymena/Desktop/cym/cymatic.js not found.
+2024-09-26 08:07:08,708 - INFO - Attempting to send chunk 0
+2024-09-26 08:07:08,740 - INFO - Response status code: 200
+2024-09-26 08:07:08,740 - INFO - Chunk 0 sent successfully
+2024-09-26 08:07:08,740 - INFO - Attempting to send chunk 1
+2024-09-26 08:07:08,753 - INFO - Response status code: 200
+2024-09-26 08:07:08,754 - INFO - Chunk 1 sent successfully
+2024-09-26 08:07:08,754 - INFO - Attempting to send chunk 2
+2024-09-26 08:07:08,757 - INFO - Response status code: 200
+2024-09-26 08:07:08,757 - INFO - Chunk 2 sent successfully
+2024-09-26 08:07:08,757 - INFO - Attempting to send chunk 3
+2024-09-26 08:07:08,761 - INFO - Response status code: 200
+2024-09-26 08:07:08,761 - INFO - Chunk 3 sent successfully
+2024-09-26 08:07:08,761 - INFO - Attempting to send chunk 4
+2024-09-26 08:07:08,764 - INFO - Response status code: 200
+2024-09-26 08:07:08,764 - INFO - Chunk 4 sent successfully
+2024-09-26 08:17:47,699 - INFO - Attempting to send chunk 0
+2024-09-26 08:17:47,761 - INFO - Response status code: 200
+2024-09-26 08:17:47,761 - INFO - Chunk 0 sent successfully
+2024-09-26 08:17:47,761 - INFO - Attempting to send chunk 1
+2024-09-26 08:17:47,764 - INFO - Response status code: 200
+2024-09-26 08:17:47,764 - INFO - Chunk 1 sent successfully
+2024-09-26 08:17:47,764 - INFO - Attempting to send chunk 2
+2024-09-26 08:17:47,766 - INFO - Response status code: 200
+2024-09-26 08:17:47,766 - INFO - Chunk 2 sent successfully
+2024-09-26 08:17:47,766 - INFO - Attempting to send chunk 3
+2024-09-26 08:17:47,769 - INFO - Response status code: 200
+2024-09-26 08:17:47,769 - INFO - Chunk 3 sent successfully
+2024-09-26 08:17:47,769 - INFO - Attempting to send chunk 4
+2024-09-26 08:17:47,772 - INFO - Response status code: 200
+2024-09-26 08:17:47,772 - INFO - Chunk 4 sent successfully
+2024-09-26 08:30:27,393 - INFO - Attempting to send chunk 0
+2024-09-26 08:30:27,453 - INFO - Response status code: 200
+2024-09-26 08:30:27,453 - INFO - Chunk 0 sent successfully
+2024-09-26 08:30:27,453 - INFO - Attempting to send chunk 1
+2024-09-26 08:30:27,456 - INFO - Response status code: 200
+2024-09-26 08:30:27,456 - INFO - Chunk 1 sent successfully
+2024-09-26 08:30:27,456 - INFO - Attempting to send chunk 2
+2024-09-26 08:30:27,458 - INFO - Response status code: 200
+2024-09-26 08:30:27,459 - INFO - Chunk 2 sent successfully
+2024-09-26 08:30:27,459 - INFO - Attempting to send chunk 3
+2024-09-26 08:30:27,461 - INFO - Response status code: 200
+2024-09-26 08:30:27,461 - INFO - Chunk 3 sent successfully
+2024-09-26 08:30:27,461 - INFO - Attempting to send chunk 4
+2024-09-26 08:30:27,462 - INFO - Response status code: 200
+2024-09-26 08:30:27,462 - INFO - Chunk 4 sent successfully
